@@ -14,6 +14,10 @@ indent_size = 2
 insert_final_newline = true
 charset = utf-8-bom
 
+# Xaml files
+[*.xaml]
+indent_size = 2
+
 # Xml project files
 [*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
 indent_size = 2
@@ -80,3 +84,14 @@ csharp_new_line_before_members_in_object_initializers = true
 csharp_new_line_before_members_in_anonymous_types = true
 
 spaces_around_brackets = inside
+
+# ReSharper properties
+resharper_csharp_extra_spaces = leave_multiple
+resharper_csharp_naming_rule.private_constants = AaBb, AA_BB
+resharper_csharp_space_within_array_access_brackets = true
+resharper_space_around_arrow_op = true
+resharper_space_within_array_rank_brackets = true
+resharper_use_indent_from_vs = false
+resharper_xml_attribute_style = first_attribute_on_single_line
+resharper_xml_attribute_indent = single_indent
+resharper_xml_pi_attribute_style = first_attribute_on_single_line
